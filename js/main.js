@@ -42,7 +42,7 @@ app.controller('artigos_base', function($scope) {
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "./templates/main.html",
+        templateUrl : "./templates/Experiencias.html",
         controller:"artigos_base"
       })
     .when("/artigos", {
