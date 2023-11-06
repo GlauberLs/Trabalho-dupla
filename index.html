@@ -8,10 +8,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <title>sobre</title>
 </head>
-<body>
+<body ng-app="blog" ng-controller="home" ng-init="nome='felipe'">
     <div class="pagina_sobre">
         <div class="container">
-            <nav>
+            <nav id="Menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="./templates/Experiencas.html">Experiencias</a></li>
@@ -37,6 +37,7 @@
         </div> 
         <h4>Developed by"nomes",2023 </h4>
     </footer>
+    <ng-view></ng-view>
 <script src="/js/main.js"></script>
 </body>
 </html>
