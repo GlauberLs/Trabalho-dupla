@@ -14,7 +14,7 @@
             <nav id="Menu">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="./templates/Experiencias.html">Experiencias</a></li>
+                    <li><a href="#!/artigos">Experiencias</a></li>
                     <li><a href="#">sobre</a></li>
                 </ul>
             </nav>
@@ -22,12 +22,9 @@
 
         </div>
     </div>
-    <div class="card_espaco" id="card1">
-        <h1>Extra</h1>
-        <h3>Nossa missão é trazer a melhor experiência possível para buscam viajar para diversos lugares com isso fizemos esse site de uma maneira que seja mais dinâmico possível
-        sendo algo bem fácil e claro de entender facilitando a experiência do usuário. </h3>
-        
-    </div>
+
+    <ng-view></ng-view>
+    
     <footer>
         <div class="social">
             <ul>
@@ -37,7 +34,7 @@
         </div> 
         <h4>Developed by"nomes",2023 </h4>
     </footer>
-    <ng-view></ng-view>
+
 <script src="/js/main.js"></script>
 </body>
 </html>
